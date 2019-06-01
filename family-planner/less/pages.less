@@ -1,0 +1,94 @@
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0 0 0;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 0 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+	/* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+
+// Meal Planner Styles
+
+.timely img, #ai1ec-container img {
+    max-width: 100% !important;
+}
+.timely {
+    max-width: 99.9%;
+    padding: 0 10px 0 12px;
+}
+
+// Chores List Styles
+
+.fp-choreslist-title {
+    font-family: montez;
+    font-size: 7vw;
+    margin: 0 0 -50px 0;
+    padding: 0;
+}
+
+.fp-choreslist-text {
+    font-family: optima;
+}
+.fp-choreslist-list{
+    border-style: groove;
+    font-family: optima;
+    list-style: none;
+    text-align: center;
+    margin: 0 20px 0 20px;
+    border-color: @uglybrown;
+}
+.fp-choreslist-img {
+    margin: 0 20px 0 20px;
+}
+
+// Grocery List Styles
+
+.fp-grolist {
+    margin:0;
+
+}
